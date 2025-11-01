@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	
+    <modelVersion>4.0.0</modelVersion>
+
     <groupId>club.beenest</groupId>
-    <artifactId>beenest-system</artifactId>
+    <artifactId>common-system</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>system</name>
-    <description>beenest管理系统</description>
-    
+    <name>common-system</name>
+    <description>beenest公共管理系统</description>
+
     <properties>
         <beenest-system.version>0.0.1-SNAPSHOT</beenest-system.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -185,35 +185,35 @@
             <!-- 定时任务-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>system-quartz</artifactId>
+                <artifactId>common-system-quartz</artifactId>
                 <version>${beenest-system.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>system-generator</artifactId>
+                <artifactId>common-system-generator</artifactId>
                 <version>${beenest-system.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>system-framework</artifactId>
+                <artifactId>common-system-framework</artifactId>
                 <version>${beenest-system.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>system-system</artifactId>
+                <artifactId>common-system-system</artifactId>
                 <version>${beenest-system.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>system-common</artifactId>
+                <artifactId>common-system-common</artifactId>
                 <version>${beenest-system.version}</version>
             </dependency>
 
@@ -221,12 +221,12 @@
     </dependencyManagement>
 
     <modules>
-        <module>system-admin</module>
-        <module>system-framework</module>
-        <module>system-system</module>
-        <module>system-quartz</module>
-        <module>system-generator</module>
-        <module>system-common</module>
+        <module>common-system-admin</module>
+        <module>common-system-framework</module>
+        <module>common-system-system</module>
+        <module>common-system-quartz</module>
+        <module>common-system-generator</module>
+        <module>common-system-common</module>
     </modules>
     <packaging>pom</packaging>
 
