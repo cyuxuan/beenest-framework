@@ -27,7 +27,7 @@ import club.beenest.system.service.ISysMenuService;
 /**
  * 登录验证
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 public class SysLoginController

@@ -11,7 +11,7 @@ import club.beenest.common.enums.LimitType;
 /**
  * 限流注解
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

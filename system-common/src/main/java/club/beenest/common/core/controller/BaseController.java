@@ -24,7 +24,7 @@ import club.beenest.common.utils.sql.SqlUtil;
 /**
  * web层通用数据处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class BaseController
 {

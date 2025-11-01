@@ -7,7 +7,7 @@ import club.beenest.common.utils.ServletUtils;
 /**
  * 服务相关配置
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Component
 public class ServerConfig

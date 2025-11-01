@@ -3,7 +3,7 @@ package club.beenest.common.enums;
 /**
  * 限流类型
  *
- * @author ruoyi
+ * @author beenest
  */
 
 public enum LimitType

@@ -11,7 +11,7 @@ import club.beenest.common.enums.OperatorType;
 /**
  * 自定义操作日志记录注解
  * 
- * @author ruoyi
+ * @author beenest
  *
  */
 @Target({ ElementType.PARAMETER, ElementType.METHOD })

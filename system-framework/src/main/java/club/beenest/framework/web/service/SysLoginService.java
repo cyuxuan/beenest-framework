@@ -31,7 +31,7 @@ import club.beenest.system.service.ISysUserService;
 /**
  * 登录校验方法
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Component
 public class SysLoginService

@@ -3,7 +3,7 @@ package club.beenest.common.enums;
 /**
  * 业务操作类型
  * 
- * @author ruoyi
+ * @author beenest
  */
 public enum BusinessType
 {

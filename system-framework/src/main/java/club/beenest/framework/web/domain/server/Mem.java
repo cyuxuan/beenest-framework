@@ -5,7 +5,7 @@ import club.beenest.common.utils.Arith;
 /**
  * 內存相关信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class Mem
 {

@@ -25,7 +25,7 @@ import club.beenest.system.service.ISysDeptService;
 /**
  * 部门信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/system/dept")

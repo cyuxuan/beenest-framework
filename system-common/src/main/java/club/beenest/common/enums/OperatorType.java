@@ -3,7 +3,7 @@ package club.beenest.common.enums;
 /**
  * 操作人类别
  * 
- * @author ruoyi
+ * @author beenest
  */
 public enum OperatorType
 {

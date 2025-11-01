@@ -3,7 +3,7 @@ package club.beenest.common.exception;
 /**
  * 演示模式异常
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class DemoModeException extends RuntimeException
 {

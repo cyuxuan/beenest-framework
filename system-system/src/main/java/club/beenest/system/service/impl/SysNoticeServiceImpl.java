@@ -10,7 +10,7 @@ import club.beenest.system.service.ISysNoticeService;
 /**
  * 公告 服务层实现
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Service
 public class SysNoticeServiceImpl implements ISysNoticeService

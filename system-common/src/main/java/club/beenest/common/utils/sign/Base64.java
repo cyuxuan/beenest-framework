@@ -3,7 +3,7 @@ package club.beenest.common.utils.sign;
 /**
  * Base64工具类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public final class Base64
 {

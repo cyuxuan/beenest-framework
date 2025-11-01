@@ -23,7 +23,7 @@ import club.beenest.system.service.ISysLogininforService;
 /**
  * 系统访问记录
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/monitor/logininfor")

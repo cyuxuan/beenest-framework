@@ -10,7 +10,7 @@ import club.beenest.common.xss.Xss;
 /**
  * 通知公告表 sys_notice
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysNotice extends BaseEntity
 {

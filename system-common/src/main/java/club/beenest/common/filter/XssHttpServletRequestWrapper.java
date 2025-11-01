@@ -15,7 +15,7 @@ import club.beenest.common.utils.html.EscapeUtil;
 /**
  * XSS过滤处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper
 {

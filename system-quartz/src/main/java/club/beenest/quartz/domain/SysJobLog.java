@@ -9,7 +9,7 @@ import club.beenest.common.core.domain.BaseEntity;
 /**
  * 定时任务调度日志表 sys_job_log
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysJobLog extends BaseEntity
 {

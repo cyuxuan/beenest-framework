@@ -3,7 +3,7 @@ package club.beenest.common.constant;
 /**
  * 用户常量信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class UserConstants
 {

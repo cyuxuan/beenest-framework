@@ -11,7 +11,7 @@ import org.springframework.util.FastByteArrayOutputStream;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.google.code.kaptcha.Producer;
-import club.beenest.common.config.RuoYiConfig;
+import club.beenest.common.config.BeenestSystemConfig;
 import club.beenest.common.constant.CacheConstants;
 import club.beenest.common.constant.Constants;
 import club.beenest.common.core.domain.AjaxResult;
@@ -23,7 +23,7 @@ import club.beenest.system.service.ISysConfigService;
 /**
  * 验证码操作处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 public class CaptchaController
@@ -61,7 +61,7 @@ public class CaptchaController
         BufferedImage image = null;
 
         // 生成验证码
-        String captchaType = RuoYiConfig.getCaptchaType();
+        String captchaType = BeenestSystemConfig.getCaptchaType();
         if ("math".equals(captchaType))
         {
             String capText = captchaProducerMath.createText();

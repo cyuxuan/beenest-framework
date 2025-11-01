@@ -3,7 +3,7 @@ package club.beenest.common.exception.job;
 /**
  * 计划策略异常
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class TaskException extends Exception
 {

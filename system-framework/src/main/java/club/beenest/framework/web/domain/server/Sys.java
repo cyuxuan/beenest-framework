@@ -3,7 +3,7 @@ package club.beenest.framework.web.domain.server;
 /**
  * 系统相关信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class Sys
 {

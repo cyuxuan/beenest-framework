@@ -18,7 +18,7 @@ import club.beenest.quartz.service.ISysJobLogService;
 /**
  * 抽象quartz调用
  *
- * @author ruoyi
+ * @author beenest
  */
 public abstract class AbstractQuartzJob implements Job
 {

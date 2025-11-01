@@ -5,7 +5,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 路由显示信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class MetaVo
 {

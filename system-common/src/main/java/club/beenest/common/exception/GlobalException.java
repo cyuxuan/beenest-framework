@@ -3,7 +3,7 @@ package club.beenest.common.exception;
 /**
  * 全局异常
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class GlobalException extends RuntimeException
 {

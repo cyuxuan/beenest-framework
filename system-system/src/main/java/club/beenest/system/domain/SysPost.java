@@ -12,7 +12,7 @@ import club.beenest.common.core.domain.BaseEntity;
 /**
  * 岗位表 sys_post
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysPost extends BaseEntity
 {

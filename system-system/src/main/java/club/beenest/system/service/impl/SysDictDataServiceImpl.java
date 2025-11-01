@@ -11,7 +11,7 @@ import club.beenest.system.service.ISysDictDataService;
 /**
  * 字典 业务层处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Service
 public class SysDictDataServiceImpl implements ISysDictDataService

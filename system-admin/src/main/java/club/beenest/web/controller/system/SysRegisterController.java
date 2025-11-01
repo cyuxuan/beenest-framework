@@ -14,7 +14,7 @@ import club.beenest.system.service.ISysConfigService;
 /**
  * 注册验证
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 public class SysRegisterController extends BaseController

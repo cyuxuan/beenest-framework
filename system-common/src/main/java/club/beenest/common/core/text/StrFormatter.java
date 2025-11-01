@@ -5,7 +5,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 字符串格式化
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class StrFormatter
 {

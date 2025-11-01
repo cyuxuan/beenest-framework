@@ -6,7 +6,7 @@ import club.beenest.generator.domain.GenTableColumn;
 /**
  * 业务字段 服务层
  * 
- * @author ruoyi
+ * @author beenest
  */
 public interface IGenTableColumnService
 {

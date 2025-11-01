@@ -24,7 +24,7 @@ import club.beenest.framework.security.handle.LogoutSuccessHandlerImpl;
 /**
  * spring security配置
  * 
- * @author ruoyi
+ * @author beenest
  */
 @EnableMethodSecurity(prePostEnabled = true, securedEnabled = true)
 @Configuration

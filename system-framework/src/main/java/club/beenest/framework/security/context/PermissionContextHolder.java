@@ -7,7 +7,7 @@ import club.beenest.common.core.text.Convert;
 /**
  * 权限信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class PermissionContextHolder
 {

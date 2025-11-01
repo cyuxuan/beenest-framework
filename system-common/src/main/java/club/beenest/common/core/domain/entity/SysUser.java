@@ -15,7 +15,7 @@ import club.beenest.common.xss.Xss;
 /**
  * 用户对象 sys_user
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysUser extends BaseEntity
 {

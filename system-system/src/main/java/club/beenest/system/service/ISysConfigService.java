@@ -6,7 +6,7 @@ import club.beenest.system.domain.SysConfig;
 /**
  * 参数配置 服务层
  * 
- * @author ruoyi
+ * @author beenest
  */
 public interface ISysConfigService
 {

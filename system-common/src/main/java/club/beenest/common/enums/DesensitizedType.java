@@ -6,7 +6,7 @@ import club.beenest.common.utils.DesensitizedUtil;
 /**
  * 脱敏类型
  *
- * @author ruoyi
+ * @author beenest
  */
 public enum DesensitizedType
 {

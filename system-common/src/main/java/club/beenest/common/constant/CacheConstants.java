@@ -3,7 +3,7 @@ package club.beenest.common.constant;
 /**
  * 缓存的key 常量
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class CacheConstants
 {

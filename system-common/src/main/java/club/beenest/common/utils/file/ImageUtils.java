@@ -9,14 +9,14 @@ import java.util.Arrays;
 import org.apache.poi.util.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import club.beenest.common.config.RuoYiConfig;
+import club.beenest.common.config.BeenestSystemConfig;
 import club.beenest.common.constant.Constants;
 import club.beenest.common.utils.StringUtils;
 
 /**
  * 图片处理工具类
  *
- * @author ruoyi
+ * @author beenest
  */
 public class ImageUtils
 {
@@ -79,7 +79,7 @@ public class ImageUtils
             else
             {
                 // 本机地址
-                String localPath = RuoYiConfig.getProfile();
+                String localPath = BeenestSystemConfig.getProfile();
                 String downloadPath = localPath + StringUtils.substringAfter(url, Constants.RESOURCE_PREFIX);
                 in = new FileInputStream(downloadPath);
             }

@@ -25,7 +25,7 @@ import club.beenest.system.service.ISysPostService;
 /**
  * 岗位信息操作处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/system/post")

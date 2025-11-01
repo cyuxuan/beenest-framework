@@ -5,7 +5,7 @@ import club.beenest.common.exception.base.BaseException;
 /**
  * 用户信息异常类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class UserException extends BaseException
 {

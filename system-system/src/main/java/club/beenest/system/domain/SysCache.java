@@ -5,7 +5,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 缓存信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysCache
 {

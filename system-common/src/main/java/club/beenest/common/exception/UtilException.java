@@ -3,7 +3,7 @@ package club.beenest.common.exception;
 /**
  * 工具类异常
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class UtilException extends RuntimeException
 {

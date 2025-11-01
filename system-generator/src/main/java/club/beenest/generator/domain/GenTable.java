@@ -11,7 +11,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 业务表 gen_table
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class GenTable extends BaseEntity
 {

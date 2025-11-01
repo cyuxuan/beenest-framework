@@ -12,7 +12,7 @@ import club.beenest.common.utils.poi.ExcelHandlerAdapter;
 /**
  * 自定义导出Excel数据注解
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)

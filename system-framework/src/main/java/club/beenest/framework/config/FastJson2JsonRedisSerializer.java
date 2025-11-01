@@ -12,7 +12,7 @@ import club.beenest.common.constant.Constants;
 /**
  * Redis使用FastJson序列化
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class FastJson2JsonRedisSerializer<T> implements RedisSerializer<T>
 {

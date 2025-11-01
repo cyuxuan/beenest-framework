@@ -13,7 +13,7 @@ import club.beenest.common.core.text.StrFormatter;
 /**
  * 字符串工具类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils
 {

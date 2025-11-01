@@ -11,7 +11,7 @@ import club.beenest.common.utils.spring.SpringUtils;
 /**
  * 字典工具类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class DictUtils
 {

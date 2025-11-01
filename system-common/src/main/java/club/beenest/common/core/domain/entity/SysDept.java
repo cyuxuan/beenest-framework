@@ -13,7 +13,7 @@ import club.beenest.common.core.domain.BaseEntity;
 /**
  * 部门表 sys_dept
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysDept extends BaseEntity
 {

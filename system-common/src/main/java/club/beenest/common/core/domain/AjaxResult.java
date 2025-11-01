@@ -8,7 +8,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 操作消息提醒
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class AjaxResult extends HashMap<String, Object>
 {

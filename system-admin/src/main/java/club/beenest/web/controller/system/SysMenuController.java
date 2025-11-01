@@ -24,7 +24,7 @@ import club.beenest.system.service.ISysMenuService;
 /**
  * 菜单信息
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/system/menu")

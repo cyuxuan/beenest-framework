@@ -7,7 +7,7 @@ import club.beenest.common.constant.Constants;
 /**
  * VelocityEngine工厂
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class VelocityInitializer
 {

@@ -9,7 +9,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 获取IP方法
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class IpUtils
 {

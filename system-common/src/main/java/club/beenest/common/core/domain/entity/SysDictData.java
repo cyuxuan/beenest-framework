@@ -12,7 +12,7 @@ import club.beenest.common.core.domain.BaseEntity;
 /**
  * 字典数据表 sys_dict_data
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysDictData extends BaseEntity
 {

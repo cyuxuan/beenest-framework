@@ -5,7 +5,7 @@ import club.beenest.common.utils.DateUtils;
 import club.beenest.common.utils.StringUtils;
 
 /**
- * @author ruoyi 序列生成类
+ * @author beenest 序列生成类
  */
 public class Seq
 {

@@ -16,7 +16,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 认证失败处理类 返回未授权
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Component
 public class AuthenticationEntryPointImpl implements AuthenticationEntryPoint, Serializable

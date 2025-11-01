@@ -28,7 +28,7 @@ import club.beenest.system.service.ISysMenuService;
 /**
  * 菜单 业务层处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Service
 public class SysMenuServiceImpl implements ISysMenuService

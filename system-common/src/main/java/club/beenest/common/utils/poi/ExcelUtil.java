@@ -74,7 +74,7 @@ import club.beenest.common.annotation.Excel;
 import club.beenest.common.annotation.Excel.ColumnType;
 import club.beenest.common.annotation.Excel.Type;
 import club.beenest.common.annotation.Excels;
-import club.beenest.common.config.RuoYiConfig;
+import club.beenest.common.config.BeenestSystemConfig;
 import club.beenest.common.core.domain.AjaxResult;
 import club.beenest.common.core.text.Convert;
 import club.beenest.common.exception.UtilException;
@@ -89,7 +89,7 @@ import club.beenest.common.utils.reflect.ReflectUtils;
 /**
  * Excel相关处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class ExcelUtil<T>
 {
@@ -1459,7 +1459,7 @@ public class ExcelUtil<T>
      */
     public String getAbsoluteFile(String filename)
     {
-        String downloadPath = RuoYiConfig.getDownloadPath() + filename;
+        String downloadPath = BeenestSystemConfig.getDownloadPath() + filename;
         File desc = new File(downloadPath);
         if (!desc.getParentFile().exists())
         {

@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ArrayUtils;
-import club.beenest.common.config.RuoYiConfig;
+import club.beenest.common.config.BeenestSystemConfig;
 import club.beenest.common.constant.Constants;
 import club.beenest.common.utils.DateUtils;
 import club.beenest.common.utils.StringUtils;
@@ -23,7 +23,7 @@ import club.beenest.common.utils.uuid.IdUtils;
 /**
  * 文件处理工具类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class FileUtils
 {
@@ -74,7 +74,7 @@ public class FileUtils
      */
     public static String writeImportBytes(byte[] data) throws IOException
     {
-        return writeBytes(data, RuoYiConfig.getImportPath());
+        return writeBytes(data, BeenestSystemConfig.getImportPath());
     }
 
     /**
@@ -268,7 +268,7 @@ public class FileUtils
     }
 
     /**
-     * 获取文件名称 /profile/upload/2022/04/16/ruoyi.png -- ruoyi.png
+     * 获取文件名称 /profile/upload/2022/04/16/beenest.png -- beenest.png
      * 
      * @param fileName 路径名称
      * @return 没有文件路径的名称
@@ -286,7 +286,7 @@ public class FileUtils
     }
 
     /**
-     * 获取不带后缀文件名称 /profile/upload/2022/04/16/ruoyi.png -- ruoyi
+     * 获取不带后缀文件名称 /profile/upload/2022/04/16/beenest.png -- beenest
      * 
      * @param fileName 路径名称
      * @return 没有文件路径和后缀的名称

@@ -3,7 +3,7 @@ package club.beenest.common.enums;
 /**
  * 数据源
  * 
- * @author ruoyi
+ * @author beenest
  */
 public enum DataSourceType
 {

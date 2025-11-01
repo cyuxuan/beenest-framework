@@ -3,7 +3,7 @@ package club.beenest.common.constant;
 /**
  * 代码生成通用常量
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class GenConstants
 {

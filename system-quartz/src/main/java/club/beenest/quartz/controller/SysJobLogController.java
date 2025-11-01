@@ -22,7 +22,7 @@ import club.beenest.quartz.service.ISysJobLogService;
 /**
  * 调度日志操作处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/monitor/jobLog")

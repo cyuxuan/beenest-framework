@@ -26,7 +26,7 @@ import club.beenest.system.service.ISysUserOnlineService;
 /**
  * 在线用户监控
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/monitor/online")

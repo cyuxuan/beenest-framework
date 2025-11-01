@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.Objects;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.web.multipart.MultipartFile;
-import club.beenest.common.config.RuoYiConfig;
+import club.beenest.common.config.BeenestSystemConfig;
 import club.beenest.common.constant.Constants;
 import club.beenest.common.exception.file.FileNameLengthLimitExceededException;
 import club.beenest.common.exception.file.FileSizeLimitExceededException;
@@ -19,7 +19,7 @@ import club.beenest.common.utils.uuid.Seq;
 /**
  * 文件上传工具类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class FileUploadUtils
 {
@@ -36,7 +36,7 @@ public class FileUploadUtils
     /**
      * 默认上传的地址
      */
-    private static String defaultBaseDir = RuoYiConfig.getProfile();
+    private static String defaultBaseDir = BeenestSystemConfig.getProfile();
 
     public static void setDefaultBaseDir(String defaultBaseDir)
     {
@@ -170,7 +170,7 @@ public class FileUploadUtils
 
     public static final String getPathFileName(String uploadDir, String fileName) throws IOException
     {
-        int dirLastIndex = RuoYiConfig.getProfile().length() + 1;
+        int dirLastIndex = BeenestSystemConfig.getProfile().length() + 1;
         String currentDir = StringUtils.substring(uploadDir, dirLastIndex);
         return Constants.RESOURCE_PREFIX + "/" + currentDir + "/" + fileName;
     }

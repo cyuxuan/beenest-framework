@@ -3,7 +3,7 @@ package club.beenest.common.exception.user;
 /**
  * 黑名单IP异常类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class BlackListException extends UserException
 {

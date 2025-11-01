@@ -22,7 +22,7 @@ import club.beenest.system.service.ISysUserService;
 /**
  * 注册校验方法
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Component
 public class SysRegisterService

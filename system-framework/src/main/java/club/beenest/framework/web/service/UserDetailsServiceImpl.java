@@ -18,7 +18,7 @@ import club.beenest.system.service.ISysUserService;
 /**
  * 用户验证处理
  *
- * @author ruoyi
+ * @author beenest
  */
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService

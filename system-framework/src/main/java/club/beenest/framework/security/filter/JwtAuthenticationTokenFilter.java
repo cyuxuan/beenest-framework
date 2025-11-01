@@ -19,7 +19,7 @@ import club.beenest.framework.web.service.TokenService;
 /**
  * token过滤器 验证token有效性
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Component
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter

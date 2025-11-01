@@ -6,7 +6,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 基础异常
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class BaseException extends RuntimeException
 {

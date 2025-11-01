@@ -3,7 +3,7 @@ package club.beenest.common.utils;
 /**
  * 脱敏工具类
  *
- * @author ruoyi
+ * @author beenest
  */
 public class DesensitizedUtil
 {

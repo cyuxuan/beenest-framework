@@ -22,7 +22,7 @@ import club.beenest.system.service.ISysOperLogService;
 /**
  * 操作日志记录
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/monitor/operlog")

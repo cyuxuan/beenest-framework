@@ -3,7 +3,7 @@ package club.beenest.common.exception;
 /**
  * 业务异常
  * 
- * @author ruoyi
+ * @author beenest
  */
 public final class ServiceException extends RuntimeException
 {

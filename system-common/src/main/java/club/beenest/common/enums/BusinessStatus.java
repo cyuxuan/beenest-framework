@@ -3,7 +3,7 @@ package club.beenest.common.enums;
 /**
  * 操作状态
  * 
- * @author ruoyi
+ * @author beenest
  *
  */
 public enum BusinessStatus

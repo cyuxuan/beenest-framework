@@ -12,7 +12,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 类型转换器
  *
- * @author ruoyi
+ * @author beenest
  */
 public class Convert
 {

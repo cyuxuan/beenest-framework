@@ -16,7 +16,7 @@ import club.beenest.common.exception.ServiceException;
 /**
  * 安全服务工具类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SecurityUtils
 {

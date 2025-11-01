@@ -20,7 +20,7 @@ import club.beenest.system.service.ISysConfigService;
 /**
  * 参数配置 服务层实现
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Service
 public class SysConfigServiceImpl implements ISysConfigService

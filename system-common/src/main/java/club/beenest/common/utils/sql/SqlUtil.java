@@ -6,7 +6,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * sql操作工具类
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SqlUtil
 {

@@ -3,7 +3,7 @@ package club.beenest.system.domain;
 /**
  * 当前在线会话
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class SysUserOnline
 {

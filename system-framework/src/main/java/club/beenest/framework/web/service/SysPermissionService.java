@@ -16,7 +16,7 @@ import club.beenest.system.service.ISysRoleService;
 /**
  * 用户权限处理
  * 
- * @author ruoyi
+ * @author beenest
  */
 @Component
 public class SysPermissionService

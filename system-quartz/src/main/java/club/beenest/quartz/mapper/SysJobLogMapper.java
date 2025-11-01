@@ -6,7 +6,7 @@ import club.beenest.quartz.domain.SysJobLog;
 /**
  * 调度任务日志信息 数据层
  * 
- * @author ruoyi
+ * @author beenest
  */
 public interface SysJobLogMapper
 {

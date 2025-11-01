@@ -3,7 +3,7 @@ package club.beenest.common.core.domain.model;
 /**
  * 用户登录对象
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class LoginBody
 {

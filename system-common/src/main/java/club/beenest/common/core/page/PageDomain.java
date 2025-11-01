@@ -5,7 +5,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * 分页数据
  * 
- * @author ruoyi
+ * @author beenest
  */
 public class PageDomain
 {

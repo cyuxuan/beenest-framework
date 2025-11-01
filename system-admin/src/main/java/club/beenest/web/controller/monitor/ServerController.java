@@ -10,7 +10,7 @@ import club.beenest.framework.web.domain.Server;
 /**
  * 服务器监控
  * 
- * @author ruoyi
+ * @author beenest
  */
 @RestController
 @RequestMapping("/monitor/server")

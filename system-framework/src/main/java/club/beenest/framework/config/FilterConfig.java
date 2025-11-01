@@ -17,7 +17,7 @@ import club.beenest.common.utils.StringUtils;
 /**
  * Filter配置
  *
- * @author ruoyi
+ * @author beenest
  */
 @Configuration
 public class FilterConfig

@@ -8,7 +8,7 @@ import club.beenest.system.domain.SysUserRole;
 /**
  * 角色业务层
  * 
- * @author ruoyi
+ * @author beenest
  */
 public interface ISysRoleService
 {
