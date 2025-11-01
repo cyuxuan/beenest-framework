@@ -1,17 +1,18 @@
 package club.beenest.sso.framework.web.service;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import club.beenest.sso.common.constant.UserConstants;
+import club.beenest.sso.common.core.domain.entity.SysRole;
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.system.service.ISysMenuService;
+import club.beenest.sso.system.service.ISysRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
-import club.beenest.common.constant.UserConstants;
-import club.beenest.common.core.domain.entity.SysRole;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.system.service.ISysMenuService;
-import club.beenest.system.service.ISysRoleService;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 /**
  * 用户权限处理

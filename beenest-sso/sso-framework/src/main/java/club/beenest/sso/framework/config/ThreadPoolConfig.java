@@ -1,10 +1,11 @@
-package club.beenest.sso.framework.web.config;
+package club.beenest.sso.framework.config;
 
-import club.beenest.common.utils.Threads;
+import club.beenest.sso.common.utils.Threads;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
+
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.ThreadPoolExecutor;

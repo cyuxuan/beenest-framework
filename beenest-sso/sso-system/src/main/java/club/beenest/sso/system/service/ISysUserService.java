@@ -2,7 +2,7 @@ package club.beenest.sso.system.service;
 
 import java.util.Date;
 import java.util.List;
-import club.beenest.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.domain.entity.SysUser;
 
 /**
  * 用户 业务层

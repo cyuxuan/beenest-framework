@@ -2,7 +2,7 @@ package club.beenest.sso.system.service;
 
 import java.util.List;
 import java.util.Set;
-import club.beenest.common.core.domain.entity.SysRole;
+import club.beenest.sso.common.core.domain.entity.SysRole;
 import club.beenest.sso.system.domain.SysUserRole;
 
 /**

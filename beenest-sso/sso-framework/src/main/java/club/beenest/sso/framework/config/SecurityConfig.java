@@ -1,5 +1,9 @@
-package club.beenest.sso.framework.web.config;
+package club.beenest.sso.framework.config;
 
+import club.beenest.sso.framework.config.properties.PermitAllUrlProperties;
+import club.beenest.sso.framework.security.filter.JwtAuthenticationTokenFilter;
+import club.beenest.sso.framework.security.handle.AuthenticationEntryPointImpl;
+import club.beenest.sso.framework.security.handle.LogoutSuccessHandlerImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,10 +20,6 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.authentication.logout.LogoutFilter;
 import org.springframework.web.filter.CorsFilter;
-import club.beenest.sso.framework.web.config.properties.PermitAllUrlProperties;
-import club.beenest.sso.framework.security.filter.JwtAuthenticationTokenFilter;
-import club.beenest.sso.framework.security.handle.AuthenticationEntryPointImpl;
-import club.beenest.sso.framework.security.handle.LogoutSuccessHandlerImpl;
 
 /**
  * spring security配置

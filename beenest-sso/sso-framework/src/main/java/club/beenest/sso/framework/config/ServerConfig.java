@@ -1,8 +1,9 @@
-package club.beenest.sso.framework.web.config;
+package club.beenest.sso.framework.config;
+
+import club.beenest.sso.common.utils.ServletUtils;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
-import org.springframework.stereotype.Component;
-import club.beenest.common.utils.ServletUtils;
 
 /**
  * 服务相关配置

@@ -1,6 +1,8 @@
-package club.beenest.sso.framework.web.config;
+package club.beenest.sso.framework.config;
 
-import java.util.concurrent.TimeUnit;
+import club.beenest.sso.common.config.BeenestSystemConfig;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.framework.interceptor.RepeatSubmitInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,9 +13,8 @@ import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import club.beenest.common.config.BeenestSystemConfig;
-import club.beenest.common.constant.Constants;
-import club.beenest.sso.framework.interceptor.RepeatSubmitInterceptor;
+
+import java.util.concurrent.TimeUnit;
 
 /**
  * 通用配置

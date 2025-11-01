@@ -1,7 +1,7 @@
 package club.beenest.sso.system.mapper;
 
 import java.util.List;
-import club.beenest.common.core.domain.entity.SysDictType;
+import club.beenest.sso.common.core.domain.entity.SysDictType;
 
 /**
  * 字典表 数据层

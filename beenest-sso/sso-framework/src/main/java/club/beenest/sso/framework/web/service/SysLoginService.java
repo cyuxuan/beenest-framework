@@ -1,32 +1,29 @@
 package club.beenest.sso.framework.web.service;
 
-import javax.annotation.Resource;
+import club.beenest.sso.common.constant.CacheConstants;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.constant.UserConstants;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.core.redis.RedisCache;
+import club.beenest.sso.common.exception.ServiceException;
+import club.beenest.sso.common.exception.user.*;
+import club.beenest.sso.common.utils.DateUtils;
+import club.beenest.sso.common.utils.MessageUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.ip.IpUtils;
+import club.beenest.sso.framework.manager.AsyncManager;
+import club.beenest.sso.framework.manager.factory.AsyncFactory;
+import club.beenest.sso.framework.security.context.AuthenticationContextHolder;
+import club.beenest.sso.system.service.ISysConfigService;
+import club.beenest.sso.system.service.ISysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
-import club.beenest.common.constant.CacheConstants;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.constant.UserConstants;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.core.redis.RedisCache;
-import club.beenest.common.exception.ServiceException;
-import club.beenest.common.exception.user.BlackListException;
-import club.beenest.common.exception.user.CaptchaException;
-import club.beenest.common.exception.user.CaptchaExpireException;
-import club.beenest.common.exception.user.UserNotExistsException;
-import club.beenest.common.exception.user.UserPasswordNotMatchException;
-import club.beenest.common.utils.DateUtils;
-import club.beenest.common.utils.MessageUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.ip.IpUtils;
-import club.beenest.sso.framework.manager.AsyncManager;
-import club.beenest.sso.framework.manager.factory.AsyncFactory;
-import club.beenest.sso.framework.security.context.AuthenticationContextHolder;
-import club.beenest.system.service.ISysConfigService;
-import club.beenest.system.service.ISysUserService;
+
+import javax.annotation.Resource;
 
 /**
  * 登录校验方法

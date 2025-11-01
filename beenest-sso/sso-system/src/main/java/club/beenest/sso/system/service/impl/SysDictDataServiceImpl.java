@@ -3,8 +3,8 @@ package club.beenest.sso.system.service.impl;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import club.beenest.common.core.domain.entity.SysDictData;
-import club.beenest.common.utils.DictUtils;
+import club.beenest.sso.common.core.domain.entity.SysDictData;
+import club.beenest.sso.common.utils.DictUtils;
 import club.beenest.sso.system.mapper.SysDictDataMapper;
 import club.beenest.sso.system.service.ISysDictDataService;
 

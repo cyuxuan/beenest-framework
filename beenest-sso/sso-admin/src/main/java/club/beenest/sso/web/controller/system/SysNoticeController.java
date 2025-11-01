@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.annotation.Log;
-import club.beenest.common.core.controller.BaseController;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.page.TableDataInfo;
-import club.beenest.common.enums.BusinessType;
-import club.beenest.system.domain.SysNotice;
-import club.beenest.system.service.ISysNoticeService;
+import club.beenest.sso.common.annotation.Log;
+import club.beenest.sso.common.core.controller.BaseController;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.page.TableDataInfo;
+import club.beenest.sso.common.enums.BusinessType;
+import club.beenest.sso.system.domain.SysNotice;
+import club.beenest.sso.system.service.ISysNoticeService;
 
 /**
  * 公告 信息操作处理

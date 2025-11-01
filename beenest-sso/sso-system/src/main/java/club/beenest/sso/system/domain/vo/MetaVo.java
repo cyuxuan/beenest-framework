@@ -1,6 +1,6 @@
 package club.beenest.sso.system.domain.vo;
 
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.utils.StringUtils;
 
 /**
  * 路由显示信息

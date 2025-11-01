@@ -2,8 +2,8 @@ package club.beenest.sso.system.service;
 
 import java.util.List;
 import java.util.Set;
-import club.beenest.common.core.domain.TreeSelect;
-import club.beenest.common.core.domain.entity.SysMenu;
+import club.beenest.sso.common.core.domain.TreeSelect;
+import club.beenest.sso.common.core.domain.entity.SysMenu;
 import club.beenest.sso.system.domain.vo.RouterVo;
 
 /**

@@ -1,7 +1,8 @@
-package club.beenest.sso.framework.web.config;
+package club.beenest.sso.framework.config;
+
+import com.google.code.kaptcha.text.impl.DefaultTextCreator;
 
 import java.util.Random;
-import com.google.code.kaptcha.text.impl.DefaultTextCreator;
 
 /**
  * 验证码文本生成器

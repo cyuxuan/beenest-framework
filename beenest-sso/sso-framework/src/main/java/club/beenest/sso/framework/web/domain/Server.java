@@ -1,16 +1,8 @@
 package club.beenest.sso.framework.web.domain;
 
-import java.net.UnknownHostException;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Properties;
-import club.beenest.common.utils.Arith;
-import club.beenest.common.utils.ip.IpUtils;
-import club.beenest.sso.framework.web.domain.server.Cpu;
-import club.beenest.sso.framework.web.domain.server.Jvm;
-import club.beenest.sso.framework.web.domain.server.Mem;
-import club.beenest.sso.framework.web.domain.server.Sys;
-import club.beenest.sso.framework.web.domain.server.SysFile;
+import club.beenest.sso.common.utils.Arith;
+import club.beenest.sso.common.utils.ip.IpUtils;
+import club.beenest.sso.framework.web.domain.server.*;
 import oshi.SystemInfo;
 import oshi.hardware.CentralProcessor;
 import oshi.hardware.CentralProcessor.TickType;
@@ -20,6 +12,11 @@ import oshi.software.os.FileSystem;
 import oshi.software.os.OSFileStore;
 import oshi.software.os.OperatingSystem;
 import oshi.util.Util;
+
+import java.net.UnknownHostException;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Properties;
 
 /**
  * 服务器相关信息

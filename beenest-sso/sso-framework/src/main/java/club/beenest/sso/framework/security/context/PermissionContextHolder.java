@@ -1,8 +1,8 @@
 package club.beenest.sso.framework.security.context;
 
+import club.beenest.sso.common.core.text.Convert;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
-import club.beenest.common.core.text.Convert;
 
 /**
  * 权限信息

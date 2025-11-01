@@ -1,8 +1,8 @@
 package club.beenest.sso.generator.domain;
 
 import javax.validation.constraints.NotBlank;
-import club.beenest.common.core.domain.BaseEntity;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.core.domain.BaseEntity;
+import club.beenest.sso.common.utils.StringUtils;
 
 /**
  * 代码生成业务字段表 gen_table_column

@@ -1,8 +1,8 @@
 package club.beenest.sso.system.service;
 
 import java.util.List;
-import club.beenest.common.core.domain.TreeSelect;
-import club.beenest.common.core.domain.entity.SysDept;
+import club.beenest.sso.common.core.domain.TreeSelect;
+import club.beenest.sso.common.core.domain.entity.SysDept;
 
 /**
  * 部门管理 服务层

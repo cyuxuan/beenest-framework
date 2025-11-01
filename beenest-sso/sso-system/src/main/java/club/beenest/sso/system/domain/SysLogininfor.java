@@ -2,9 +2,9 @@ package club.beenest.sso.system.domain;
 
 import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import club.beenest.common.annotation.Excel;
-import club.beenest.common.annotation.Excel.ColumnType;
-import club.beenest.common.core.domain.BaseEntity;
+import club.beenest.sso.common.annotation.Excel;
+import club.beenest.sso.common.annotation.Excel.ColumnType;
+import club.beenest.sso.common.core.domain.BaseEntity;
 
 /**
  * 系统访问记录表 sys_logininfor

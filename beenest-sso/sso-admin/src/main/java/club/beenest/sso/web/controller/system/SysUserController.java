@@ -16,21 +16,21 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import club.beenest.common.annotation.Log;
-import club.beenest.common.core.controller.BaseController;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.domain.entity.SysDept;
-import club.beenest.common.core.domain.entity.SysRole;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.core.page.TableDataInfo;
-import club.beenest.common.enums.BusinessType;
-import club.beenest.common.utils.SecurityUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.poi.ExcelUtil;
-import club.beenest.system.service.ISysDeptService;
-import club.beenest.system.service.ISysPostService;
-import club.beenest.system.service.ISysRoleService;
-import club.beenest.system.service.ISysUserService;
+import club.beenest.sso.common.annotation.Log;
+import club.beenest.sso.common.core.controller.BaseController;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.domain.entity.SysDept;
+import club.beenest.sso.common.core.domain.entity.SysRole;
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.page.TableDataInfo;
+import club.beenest.sso.common.enums.BusinessType;
+import club.beenest.sso.common.utils.SecurityUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.poi.ExcelUtil;
+import club.beenest.sso.system.service.ISysDeptService;
+import club.beenest.sso.system.service.ISysPostService;
+import club.beenest.sso.system.service.ISysRoleService;
+import club.beenest.sso.system.service.ISysUserService;
 
 /**
  * 用户信息

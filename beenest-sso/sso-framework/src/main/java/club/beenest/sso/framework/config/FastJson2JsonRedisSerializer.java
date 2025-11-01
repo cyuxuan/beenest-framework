@@ -1,13 +1,14 @@
-package club.beenest.sso.framework.web.config;
+package club.beenest.sso.framework.config;
 
-import java.nio.charset.Charset;
-import org.springframework.data.redis.serializer.RedisSerializer;
-import org.springframework.data.redis.serializer.SerializationException;
+import club.beenest.sso.common.constant.Constants;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONReader;
 import com.alibaba.fastjson2.JSONWriter;
 import com.alibaba.fastjson2.filter.Filter;
-import club.beenest.common.constant.Constants;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.SerializationException;
+
+import java.nio.charset.Charset;
 
 /**
  * Redis使用FastJson序列化

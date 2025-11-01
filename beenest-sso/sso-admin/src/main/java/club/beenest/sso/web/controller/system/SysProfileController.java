@@ -10,21 +10,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import club.beenest.common.annotation.Log;
-import club.beenest.common.config.BeenestSystemConfig;
-import club.beenest.common.core.controller.BaseController;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.enums.BusinessType;
-import club.beenest.common.utils.DateUtils;
-import club.beenest.common.utils.SecurityUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.file.FileUploadUtils;
-import club.beenest.common.utils.file.FileUtils;
-import club.beenest.common.utils.file.MimeTypeUtils;
-import club.beenest.framework.web.service.TokenService;
-import club.beenest.system.service.ISysUserService;
+import club.beenest.sso.common.annotation.Log;
+import club.beenest.sso.common.config.BeenestSystemConfig;
+import club.beenest.sso.common.core.controller.BaseController;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.enums.BusinessType;
+import club.beenest.sso.common.utils.DateUtils;
+import club.beenest.sso.common.utils.SecurityUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.file.FileUploadUtils;
+import club.beenest.sso.common.utils.file.FileUtils;
+import club.beenest.sso.common.utils.file.MimeTypeUtils;
+import club.beenest.sso.framework.web.service.TokenService;
+import club.beenest.sso.system.service.ISysUserService;
 
 /**
  * 个人信息 业务处理

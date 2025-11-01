@@ -5,8 +5,8 @@ import ${import};
 #end
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import annotation.club.beenest.common.Excel;
-import domain.core.club.beenest.common.BaseEntity;
+import annotation.club.beenest.sso.common.Excel;
+import domain.core.club.beenest.sso.common.BaseEntity;
 
 /**
  * ${subTable.functionName}对象 ${subTableName}

@@ -1,8 +1,8 @@
 package club.beenest.sso.system.service.impl;
 
 import org.springframework.stereotype.Service;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.utils.StringUtils;
 import club.beenest.sso.system.domain.SysUserOnline;
 import club.beenest.sso.system.service.ISysUserOnlineService;
 

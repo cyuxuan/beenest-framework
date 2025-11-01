@@ -1,23 +1,24 @@
 package club.beenest.sso.framework.security.handle;
 
-import java.io.IOException;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.utils.MessageUtils;
+import club.beenest.sso.common.utils.ServletUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.framework.manager.AsyncManager;
+import club.beenest.sso.framework.manager.factory.AsyncFactory;
+import club.beenest.sso.framework.web.service.TokenService;
+import com.alibaba.fastjson2.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
-import com.alibaba.fastjson2.JSON;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.utils.MessageUtils;
-import club.beenest.common.utils.ServletUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.sso.framework.manager.AsyncManager;
-import club.beenest.sso.framework.manager.factory.AsyncFactory;
-import club.beenest.sso.framework.web.service.TokenService;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 /**
  * 自定义退出处理类 返回成功

@@ -4,9 +4,9 @@ import java.util.List;
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import org.apache.commons.lang3.ArrayUtils;
-import club.beenest.common.constant.GenConstants;
-import club.beenest.common.core.domain.BaseEntity;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.constant.GenConstants;
+import club.beenest.sso.common.core.domain.BaseEntity;
+import club.beenest.sso.common.utils.StringUtils;
 
 /**
  * 业务表 gen_table

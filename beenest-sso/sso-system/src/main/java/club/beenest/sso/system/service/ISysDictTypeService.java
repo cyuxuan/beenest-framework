@@ -1,8 +1,8 @@
 package club.beenest.sso.system.service;
 
 import java.util.List;
-import club.beenest.common.core.domain.entity.SysDictData;
-import club.beenest.common.core.domain.entity.SysDictType;
+import club.beenest.sso.common.core.domain.entity.SysDictData;
+import club.beenest.sso.common.core.domain.entity.SysDictType;
 
 /**
  * 字典 业务层

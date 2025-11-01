@@ -1,7 +1,7 @@
 package club.beenest.sso.system.mapper;
 
 import java.util.List;
-import club.beenest.common.core.domain.entity.SysRole;
+import club.beenest.sso.common.core.domain.entity.SysRole;
 
 /**
  * 角色表 数据层

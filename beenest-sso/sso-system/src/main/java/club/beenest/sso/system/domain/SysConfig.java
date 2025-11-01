@@ -4,9 +4,9 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import club.beenest.common.annotation.Excel;
-import club.beenest.common.annotation.Excel.ColumnType;
-import club.beenest.common.core.domain.BaseEntity;
+import club.beenest.sso.common.annotation.Excel;
+import club.beenest.sso.common.annotation.Excel.ColumnType;
+import club.beenest.sso.common.core.domain.BaseEntity;
 
 /**
  * 参数配置表 sys_config

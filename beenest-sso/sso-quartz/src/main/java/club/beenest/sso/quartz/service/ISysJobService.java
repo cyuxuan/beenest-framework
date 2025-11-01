@@ -2,7 +2,7 @@ package club.beenest.sso.quartz.service;
 
 import java.util.List;
 import org.quartz.SchedulerException;
-import club.beenest.common.exception.job.TaskException;
+import club.beenest.sso.common.exception.job.TaskException;
 import club.beenest.sso.quartz.domain.SysJob;
 
 /**

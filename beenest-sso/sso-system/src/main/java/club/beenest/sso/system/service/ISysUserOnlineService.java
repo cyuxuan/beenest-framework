@@ -1,6 +1,6 @@
 package club.beenest.sso.system.service;
 
-import club.beenest.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.core.domain.model.LoginUser;
 import club.beenest.sso.system.domain.SysUserOnline;
 
 /**

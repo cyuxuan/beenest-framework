@@ -1,7 +1,7 @@
 package club.beenest.sso.quartz.task;
 
 import org.springframework.stereotype.Component;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.utils.StringUtils;
 
 /**
  * 定时任务调度测试

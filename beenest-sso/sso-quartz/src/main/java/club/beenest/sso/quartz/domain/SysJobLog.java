@@ -3,8 +3,8 @@ package club.beenest.sso.quartz.domain;
 import java.util.Date;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import club.beenest.common.annotation.Excel;
-import club.beenest.common.core.domain.BaseEntity;
+import club.beenest.sso.common.annotation.Excel;
+import club.beenest.sso.common.core.domain.BaseEntity;
 
 /**
  * 定时任务调度日志表 sys_job_log

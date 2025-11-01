@@ -1,5 +1,13 @@
 package club.beenest.sso.framework.web.service;
 
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.enums.UserStatus;
+import club.beenest.sso.common.exception.ServiceException;
+import club.beenest.sso.common.utils.MessageUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.framework.web.service.SysPasswordService;
+import club.beenest.sso.system.service.ISysUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,13 +15,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.enums.UserStatus;
-import club.beenest.common.exception.ServiceException;
-import club.beenest.common.utils.MessageUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.system.service.ISysUserService;
 
 /**
  * 用户验证处理

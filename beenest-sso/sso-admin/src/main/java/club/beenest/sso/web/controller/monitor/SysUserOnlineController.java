@@ -11,17 +11,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.annotation.Log;
-import club.beenest.common.constant.CacheConstants;
-import club.beenest.common.core.controller.BaseController;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.core.page.TableDataInfo;
-import club.beenest.common.core.redis.RedisCache;
-import club.beenest.common.enums.BusinessType;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.system.domain.SysUserOnline;
-import club.beenest.system.service.ISysUserOnlineService;
+import club.beenest.sso.common.annotation.Log;
+import club.beenest.sso.common.constant.CacheConstants;
+import club.beenest.sso.common.core.controller.BaseController;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.core.page.TableDataInfo;
+import club.beenest.sso.common.core.redis.RedisCache;
+import club.beenest.sso.common.enums.BusinessType;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.system.domain.SysUserOnline;
+import club.beenest.sso.system.service.ISysUserOnlineService;
 
 /**
  * 在线用户监控

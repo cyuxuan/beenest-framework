@@ -7,9 +7,9 @@ import java.util.Set;
 import org.apache.velocity.VelocityContext;
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
-import club.beenest.common.constant.GenConstants;
-import club.beenest.common.utils.DateUtils;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.constant.GenConstants;
+import club.beenest.sso.common.utils.DateUtils;
+import club.beenest.sso.common.utils.StringUtils;
 import club.beenest.sso.generator.domain.GenTable;
 import club.beenest.sso.generator.domain.GenTableColumn;
 

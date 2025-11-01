@@ -169,5 +169,5 @@ public class Constants
      * 定时任务违规的字符
      */
     public static final String[] JOB_ERROR_STR = { "java.net.URL", "javax.naming.InitialContext", "org.yaml.snakeyaml",
-            "org.springframework", "org.apache", "club.beenest.common.utils.file", "club.beenest.common.config", "club.beenest.generator" };
+            "org.springframework", "org.apache", "club.beenest.sso.common.utils.file", "club.beenest.sso.common.config", "club.beenest.generator" };
 }

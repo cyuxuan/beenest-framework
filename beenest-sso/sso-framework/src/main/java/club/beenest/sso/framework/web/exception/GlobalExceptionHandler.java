@@ -1,6 +1,12 @@
 package club.beenest.sso.framework.web.exception;
 
-import javax.servlet.http.HttpServletRequest;
+import club.beenest.sso.common.constant.HttpStatus;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.text.Convert;
+import club.beenest.sso.common.exception.DemoModeException;
+import club.beenest.sso.common.exception.ServiceException;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.html.EscapeUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.access.AccessDeniedException;
@@ -11,13 +17,8 @@ import org.springframework.web.bind.MissingPathVariableException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
-import club.beenest.common.constant.HttpStatus;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.text.Convert;
-import club.beenest.common.exception.DemoModeException;
-import club.beenest.common.exception.ServiceException;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.html.EscapeUtil;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * 全局异常处理器

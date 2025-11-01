@@ -2,7 +2,7 @@ package club.beenest.sso.generator.util;
 
 import java.util.Properties;
 import org.apache.velocity.app.Velocity;
-import club.beenest.common.constant.Constants;
+import club.beenest.sso.common.constant.Constants;
 
 /**
  * VelocityEngine工厂

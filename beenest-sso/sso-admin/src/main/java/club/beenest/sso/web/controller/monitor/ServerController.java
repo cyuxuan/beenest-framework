@@ -4,8 +4,8 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.framework.web.domain.Server;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.framework.web.domain.Server;
 
 /**
  * 服务器监控

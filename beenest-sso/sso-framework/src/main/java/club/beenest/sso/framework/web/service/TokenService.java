@@ -1,27 +1,28 @@
 package club.beenest.sso.framework.web.service;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import javax.servlet.http.HttpServletRequest;
+import club.beenest.sso.common.constant.CacheConstants;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.core.redis.RedisCache;
+import club.beenest.sso.common.utils.ServletUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.ip.AddressUtils;
+import club.beenest.sso.common.utils.ip.IpUtils;
+import club.beenest.sso.common.utils.uuid.IdUtils;
+import eu.bitwalker.useragentutils.UserAgent;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import club.beenest.common.constant.CacheConstants;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.core.redis.RedisCache;
-import club.beenest.common.utils.ServletUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.ip.AddressUtils;
-import club.beenest.common.utils.ip.IpUtils;
-import club.beenest.common.utils.uuid.IdUtils;
-import eu.bitwalker.useragentutils.UserAgent;
-import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 /**
  * token验证处理

@@ -1,18 +1,19 @@
-package club.beenest.sso.framework.web.config;
+package club.beenest.sso.framework.config;
 
-import java.util.HashMap;
-import java.util.Map;
-import javax.servlet.DispatcherType;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.filter.RefererFilter;
+import club.beenest.sso.common.filter.RepeatableFilter;
+import club.beenest.sso.common.filter.XssFilter;
+import club.beenest.sso.common.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.filter.RefererFilter;
-import club.beenest.common.filter.RepeatableFilter;
-import club.beenest.common.filter.XssFilter;
-import club.beenest.common.utils.StringUtils;
+
+import javax.servlet.DispatcherType;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Filter配置

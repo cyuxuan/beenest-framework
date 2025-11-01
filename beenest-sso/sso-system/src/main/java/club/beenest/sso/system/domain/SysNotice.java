@@ -4,8 +4,8 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import club.beenest.common.core.domain.BaseEntity;
-import club.beenest.common.xss.Xss;
+import club.beenest.sso.common.core.domain.BaseEntity;
+import club.beenest.sso.common.xss.Xss;
 
 /**
  * 通知公告表 sys_notice

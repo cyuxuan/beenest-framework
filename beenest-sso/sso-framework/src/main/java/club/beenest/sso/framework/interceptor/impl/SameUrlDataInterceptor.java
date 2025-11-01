@@ -1,20 +1,21 @@
 package club.beenest.sso.framework.interceptor.impl;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.TimeUnit;
-import javax.servlet.http.HttpServletRequest;
+import club.beenest.sso.common.annotation.RepeatSubmit;
+import club.beenest.sso.common.constant.CacheConstants;
+import club.beenest.sso.common.core.redis.RedisCache;
+import club.beenest.sso.common.filter.RepeatedlyRequestWrapper;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.http.HttpHelper;
+import club.beenest.sso.framework.interceptor.RepeatSubmitInterceptor;
+import com.alibaba.fastjson2.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import com.alibaba.fastjson2.JSON;
-import club.beenest.common.annotation.RepeatSubmit;
-import club.beenest.common.constant.CacheConstants;
-import club.beenest.common.core.redis.RedisCache;
-import club.beenest.common.filter.RepeatedlyRequestWrapper;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.http.HttpHelper;
-import club.beenest.sso.framework.interceptor.RepeatSubmitInterceptor;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 判断请求url和数据是否和上一次相同，

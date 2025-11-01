@@ -10,12 +10,12 @@ import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.quartz.TriggerBuilder;
 import org.quartz.TriggerKey;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.constant.ScheduleConstants;
-import club.beenest.common.exception.job.TaskException;
-import club.beenest.common.exception.job.TaskException.Code;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.spring.SpringUtils;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.constant.ScheduleConstants;
+import club.beenest.sso.common.exception.job.TaskException;
+import club.beenest.sso.common.exception.job.TaskException.Code;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.spring.SpringUtils;
 import club.beenest.sso.quartz.domain.SysJob;
 
 /**

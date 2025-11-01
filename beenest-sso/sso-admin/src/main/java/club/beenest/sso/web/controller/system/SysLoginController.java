@@ -8,21 +8,21 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.domain.entity.SysMenu;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.core.domain.model.LoginBody;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.core.text.Convert;
-import club.beenest.common.utils.DateUtils;
-import club.beenest.common.utils.SecurityUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.framework.web.service.SysLoginService;
-import club.beenest.framework.web.service.SysPermissionService;
-import club.beenest.framework.web.service.TokenService;
-import club.beenest.system.service.ISysConfigService;
-import club.beenest.system.service.ISysMenuService;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.domain.entity.SysMenu;
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.domain.model.LoginBody;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.core.text.Convert;
+import club.beenest.sso.common.utils.DateUtils;
+import club.beenest.sso.common.utils.SecurityUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.framework.web.service.SysLoginService;
+import club.beenest.sso.framework.web.service.SysPermissionService;
+import club.beenest.sso.framework.web.service.TokenService;
+import club.beenest.sso.system.service.ISysConfigService;
+import club.beenest.sso.system.service.ISysMenuService;
 
 /**
  * 登录验证

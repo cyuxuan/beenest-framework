@@ -1,6 +1,6 @@
 package club.beenest.sso.system.domain;
 
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.utils.StringUtils;
 
 /**
  * 缓存信息

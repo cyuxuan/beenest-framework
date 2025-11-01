@@ -1,9 +1,21 @@
 package club.beenest.sso.framework.aspectj;
 
-import java.util.Collection;
-import java.util.Map;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import club.beenest.sso.common.annotation.Log;
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.core.text.Convert;
+import club.beenest.sso.common.enums.BusinessStatus;
+import club.beenest.sso.common.enums.HttpMethod;
+import club.beenest.sso.common.filter.PropertyPreExcludeFilter;
+import club.beenest.sso.common.utils.ExceptionUtil;
+import club.beenest.sso.common.utils.SecurityUtils;
+import club.beenest.sso.common.utils.ServletUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.ip.IpUtils;
+import club.beenest.sso.framework.manager.AsyncManager;
+import club.beenest.sso.framework.manager.factory.AsyncFactory;
+import club.beenest.sso.system.domain.SysOperLog;
+import com.alibaba.fastjson2.JSON;
 import org.apache.commons.lang3.ArrayUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -16,22 +28,11 @@ import org.springframework.core.NamedThreadLocal;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.multipart.MultipartFile;
-import com.alibaba.fastjson2.JSON;
-import club.beenest.common.annotation.Log;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.core.text.Convert;
-import club.beenest.common.enums.BusinessStatus;
-import club.beenest.common.enums.HttpMethod;
-import club.beenest.common.filter.PropertyPreExcludeFilter;
-import club.beenest.common.utils.ExceptionUtil;
-import club.beenest.common.utils.SecurityUtils;
-import club.beenest.common.utils.ServletUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.ip.IpUtils;
-import club.beenest.sso.framework.manager.AsyncManager;
-import club.beenest.sso.framework.manager.factory.AsyncFactory;
-import club.beenest.system.domain.SysOperLog;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.Collection;
+import java.util.Map;
 
 /**
  * 操作日志记录处理

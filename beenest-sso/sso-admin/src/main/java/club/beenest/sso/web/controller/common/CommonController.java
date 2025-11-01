@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import club.beenest.common.config.BeenestSystemConfig;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.file.FileUploadUtils;
-import club.beenest.common.utils.file.FileUtils;
-import club.beenest.framework.config.ServerConfig;
+import club.beenest.sso.common.config.BeenestSystemConfig;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.file.FileUploadUtils;
+import club.beenest.sso.common.utils.file.FileUtils;
+import club.beenest.sso.framework.config.ServerConfig;
 
 /**
  * 通用请求处理

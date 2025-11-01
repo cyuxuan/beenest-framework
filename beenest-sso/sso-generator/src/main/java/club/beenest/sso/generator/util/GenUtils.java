@@ -2,8 +2,8 @@ package club.beenest.sso.generator.util;
 
 import java.util.Arrays;
 import org.apache.commons.lang3.RegExUtils;
-import club.beenest.common.constant.GenConstants;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.constant.GenConstants;
+import club.beenest.sso.common.utils.StringUtils;
 import club.beenest.sso.generator.config.GenConfig;
 import club.beenest.sso.generator.domain.GenTable;
 import club.beenest.sso.generator.domain.GenTableColumn;

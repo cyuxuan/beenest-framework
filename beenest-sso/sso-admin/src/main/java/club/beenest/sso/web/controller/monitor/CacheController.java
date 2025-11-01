@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.constant.CacheConstants;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.system.domain.SysCache;
+import club.beenest.sso.common.constant.CacheConstants;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.system.domain.SysCache;
 
 /**
  * 缓存监控

@@ -1,21 +1,22 @@
 package club.beenest.sso.framework.aspectj;
 
-import java.util.ArrayList;
-import java.util.List;
+import club.beenest.sso.common.annotation.DataScope;
+import club.beenest.sso.common.constant.UserConstants;
+import club.beenest.sso.common.core.domain.BaseEntity;
+import club.beenest.sso.common.core.domain.entity.SysRole;
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.core.text.Convert;
+import club.beenest.sso.common.utils.SecurityUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.framework.security.context.PermissionContextHolder;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.springframework.stereotype.Component;
-import club.beenest.common.annotation.DataScope;
-import club.beenest.common.constant.UserConstants;
-import club.beenest.common.core.domain.BaseEntity;
-import club.beenest.common.core.domain.entity.SysRole;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.core.text.Convert;
-import club.beenest.common.utils.SecurityUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.sso.framework.security.context.PermissionContextHolder;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 数据过滤处理

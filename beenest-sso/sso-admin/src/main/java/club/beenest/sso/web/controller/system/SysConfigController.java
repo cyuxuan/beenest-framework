@@ -13,14 +13,14 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.annotation.Log;
-import club.beenest.common.core.controller.BaseController;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.page.TableDataInfo;
-import club.beenest.common.enums.BusinessType;
-import club.beenest.common.utils.poi.ExcelUtil;
-import club.beenest.system.domain.SysConfig;
-import club.beenest.system.service.ISysConfigService;
+import club.beenest.sso.common.annotation.Log;
+import club.beenest.sso.common.core.controller.BaseController;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.page.TableDataInfo;
+import club.beenest.sso.common.enums.BusinessType;
+import club.beenest.sso.common.utils.poi.ExcelUtil;
+import club.beenest.sso.system.domain.SysConfig;
+import club.beenest.sso.system.service.ISysConfigService;
 
 /**
  * 参数配置 信息操作处理

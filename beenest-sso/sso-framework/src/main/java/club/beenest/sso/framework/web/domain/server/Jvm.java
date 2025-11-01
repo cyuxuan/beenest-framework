@@ -1,8 +1,9 @@
 package club.beenest.sso.framework.web.domain.server;
 
+import club.beenest.sso.common.utils.Arith;
+import club.beenest.sso.common.utils.DateUtils;
+
 import java.lang.management.ManagementFactory;
-import club.beenest.common.utils.Arith;
-import club.beenest.common.utils.DateUtils;
 
 /**
  * JVM相关信息

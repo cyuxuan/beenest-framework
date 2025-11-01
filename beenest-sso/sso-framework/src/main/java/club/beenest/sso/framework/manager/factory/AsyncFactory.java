@@ -1,20 +1,21 @@
 package club.beenest.sso.framework.manager.factory;
 
-import java.util.TimerTask;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.utils.LogUtils;
+import club.beenest.sso.common.utils.ServletUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.ip.AddressUtils;
+import club.beenest.sso.common.utils.ip.IpUtils;
+import club.beenest.sso.common.utils.spring.SpringUtils;
+import club.beenest.sso.system.domain.SysLogininfor;
+import club.beenest.sso.system.domain.SysOperLog;
+import club.beenest.sso.system.service.ISysLogininforService;
+import club.beenest.sso.system.service.ISysOperLogService;
+import eu.bitwalker.useragentutils.UserAgent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.utils.LogUtils;
-import club.beenest.common.utils.ServletUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.ip.AddressUtils;
-import club.beenest.common.utils.ip.IpUtils;
-import club.beenest.common.utils.spring.SpringUtils;
-import club.beenest.system.domain.SysLogininfor;
-import club.beenest.system.domain.SysOperLog;
-import club.beenest.system.service.ISysLogininforService;
-import club.beenest.system.service.ISysOperLogService;
-import eu.bitwalker.useragentutils.UserAgent;
+
+import java.util.TimerTask;
 
 /**
  * 异步工厂（产生任务用）

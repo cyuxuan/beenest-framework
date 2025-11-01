@@ -4,12 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.core.controller.BaseController;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.domain.model.RegisterBody;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.framework.web.service.SysRegisterService;
-import club.beenest.system.service.ISysConfigService;
+import club.beenest.sso.common.core.controller.BaseController;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.domain.model.RegisterBody;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.framework.web.service.SysRegisterService;
+import club.beenest.sso.system.service.ISysConfigService;
 
 /**
  * 注册验证

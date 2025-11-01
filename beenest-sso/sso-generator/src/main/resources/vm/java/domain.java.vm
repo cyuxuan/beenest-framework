@@ -5,11 +5,11 @@ import ${import};
 #end
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import annotation.club.beenest.common.Excel;
+import annotation.club.beenest.sso.common.Excel;
 #if($table.crud || $table.sub)
-import domain.core.club.beenest.common.BaseEntity;
+import domain.core.club.beenest.sso.common.BaseEntity;
 #elseif($table.tree)
-import domain.core.club.beenest.common.TreeEntity;
+import domain.core.club.beenest.sso.common.TreeEntity;
 #end
 
 /**

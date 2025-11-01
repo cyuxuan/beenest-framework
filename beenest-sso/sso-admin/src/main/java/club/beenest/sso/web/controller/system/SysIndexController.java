@@ -3,8 +3,8 @@ package club.beenest.sso.web.controller.system;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import club.beenest.common.config.BeenestSystemConfig;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.config.BeenestSystemConfig;
+import club.beenest.sso.common.utils.StringUtils;
 
 /**
  * 首页

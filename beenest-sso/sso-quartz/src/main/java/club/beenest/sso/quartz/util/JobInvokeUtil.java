@@ -4,8 +4,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.LinkedList;
 import java.util.List;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.common.utils.spring.SpringUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.common.utils.spring.SpringUtils;
 import club.beenest.sso.quartz.domain.SysJob;
 
 /**

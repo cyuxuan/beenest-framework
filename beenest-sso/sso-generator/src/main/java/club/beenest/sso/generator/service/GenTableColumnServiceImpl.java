@@ -3,7 +3,7 @@ package club.beenest.sso.generator.service;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import club.beenest.common.core.text.Convert;
+import club.beenest.sso.common.core.text.Convert;
 import club.beenest.sso.generator.domain.GenTableColumn;
 import club.beenest.sso.generator.mapper.GenTableColumnMapper;
 

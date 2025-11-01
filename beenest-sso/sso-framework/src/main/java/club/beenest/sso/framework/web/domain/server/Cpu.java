@@ -1,6 +1,6 @@
 package club.beenest.sso.framework.web.domain.server;
 
-import club.beenest.common.utils.Arith;
+import club.beenest.sso.common.utils.Arith;
 
 /**
  * CPU相关信息

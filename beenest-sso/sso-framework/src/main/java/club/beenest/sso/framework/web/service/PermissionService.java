@@ -1,14 +1,15 @@
 package club.beenest.sso.framework.web.service;
 
-import java.util.Set;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.core.domain.entity.SysRole;
+import club.beenest.sso.common.core.domain.model.LoginUser;
+import club.beenest.sso.common.utils.SecurityUtils;
+import club.beenest.sso.common.utils.StringUtils;
+import club.beenest.sso.framework.security.context.PermissionContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.core.domain.entity.SysRole;
-import club.beenest.common.core.domain.model.LoginUser;
-import club.beenest.common.utils.SecurityUtils;
-import club.beenest.common.utils.StringUtils;
-import club.beenest.sso.framework.security.context.PermissionContextHolder;
+
+import java.util.Set;
 
 /**
  * 自定义权限实现，ss取自SpringSecurity首字母

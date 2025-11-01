@@ -11,14 +11,14 @@ import org.springframework.util.FastByteArrayOutputStream;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.google.code.kaptcha.Producer;
-import club.beenest.common.config.BeenestSystemConfig;
-import club.beenest.common.constant.CacheConstants;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.core.domain.AjaxResult;
-import club.beenest.common.core.redis.RedisCache;
-import club.beenest.common.utils.sign.Base64;
-import club.beenest.common.utils.uuid.IdUtils;
-import club.beenest.system.service.ISysConfigService;
+import club.beenest.sso.common.config.BeenestSystemConfig;
+import club.beenest.sso.common.constant.CacheConstants;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.core.domain.AjaxResult;
+import club.beenest.sso.common.core.redis.RedisCache;
+import club.beenest.sso.common.utils.sign.Base64;
+import club.beenest.sso.common.utils.uuid.IdUtils;
+import club.beenest.sso.system.service.ISysConfigService;
 
 /**
  * 验证码操作处理

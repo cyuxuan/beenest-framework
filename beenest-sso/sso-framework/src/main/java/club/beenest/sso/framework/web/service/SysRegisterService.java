@@ -1,23 +1,23 @@
 package club.beenest.sso.framework.web.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import club.beenest.common.constant.CacheConstants;
-import club.beenest.common.constant.Constants;
-import club.beenest.common.constant.UserConstants;
-import club.beenest.common.core.domain.entity.SysUser;
-import club.beenest.common.core.domain.model.RegisterBody;
-import club.beenest.common.core.redis.RedisCache;
-import club.beenest.common.exception.user.CaptchaException;
-import club.beenest.common.exception.user.CaptchaExpireException;
-import club.beenest.common.utils.DateUtils;
-import club.beenest.common.utils.MessageUtils;
-import club.beenest.common.utils.SecurityUtils;
-import club.beenest.common.utils.StringUtils;
+import club.beenest.sso.common.constant.CacheConstants;
+import club.beenest.sso.common.constant.Constants;
+import club.beenest.sso.common.constant.UserConstants;
+import club.beenest.sso.common.core.domain.entity.SysUser;
+import club.beenest.sso.common.core.domain.model.RegisterBody;
+import club.beenest.sso.common.core.redis.RedisCache;
+import club.beenest.sso.common.exception.user.CaptchaException;
+import club.beenest.sso.common.exception.user.CaptchaExpireException;
+import club.beenest.sso.common.utils.DateUtils;
+import club.beenest.sso.common.utils.MessageUtils;
+import club.beenest.sso.common.utils.SecurityUtils;
+import club.beenest.sso.common.utils.StringUtils;
 import club.beenest.sso.framework.manager.AsyncManager;
 import club.beenest.sso.framework.manager.factory.AsyncFactory;
-import club.beenest.system.service.ISysConfigService;
-import club.beenest.system.service.ISysUserService;
+import club.beenest.sso.system.service.ISysConfigService;
+import club.beenest.sso.system.service.ISysUserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * 注册校验方法
