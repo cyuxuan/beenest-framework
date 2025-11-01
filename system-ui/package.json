@@ -1,8 +1,8 @@
 {
-  "name": "ruoyi",
+  "name": "beenest",
   "version": "3.9.0",
-  "description": "若依管理系统",
-  "author": "若依",
+  "description": "Beenest`s管理系统",
+  "author": "Beenest",
   "license": "MIT",
   "scripts": {
     "dev": "vue-cli-service serve",
