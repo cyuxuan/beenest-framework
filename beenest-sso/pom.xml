@@ -185,35 +185,35 @@
             <!-- 定时任务-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>common-system-quartz</artifactId>
+                <artifactId>sso-quartz</artifactId>
                 <version>${beenest-sso.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>common-system-generator</artifactId>
+                <artifactId>sso-generator</artifactId>
                 <version>${beenest-sso.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>common-system-framework</artifactId>
+                <artifactId>sso-framework</artifactId>
                 <version>${beenest-sso.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>common-system-system</artifactId>
+                <artifactId>sso-system</artifactId>
                 <version>${beenest-sso.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>common-system-common</artifactId>
+                <artifactId>sso-common</artifactId>
                 <version>${beenest-sso.version}</version>
             </dependency>
 
