@@ -221,7 +221,7 @@
     </dependencyManagement>
 
     <modules>
-        <module>sso-admin</module>
+        <module>sso-boot</module>
         <module>sso-framework</module>
         <module>sso-system</module>
         <module>sso-quartz</module>

@@ -221,7 +221,7 @@
     </dependencyManagement>
 
     <modules>
-        <module>common-system-admin</module>
+        <module>common-system-boot</module>
         <module>common-system-framework</module>
         <module>common-system-system</module>
         <module>common-system-quartz</module>
