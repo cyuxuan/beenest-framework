@@ -56,7 +56,7 @@
         <!-- 系统模块-->
         <dependency>
             <groupId>club.beenest</groupId>
-            <artifactId>sso-system</artifactId>
+            <artifactId>sso-core</artifactId>
         </dependency>
 
     </dependencies>

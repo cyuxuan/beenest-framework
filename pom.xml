@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>beenest-sso/sso-sdk</module>
+        <module>beenest-config</module>
+        <module>beenest-register</module>
     </modules>
 
     <properties>

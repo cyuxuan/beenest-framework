@@ -206,7 +206,7 @@
             <!-- 系统模块-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>common-system-system</artifactId>
+                <artifactId>common-system-core</artifactId>
                 <version>${beenest-system.version}</version>
             </dependency>
 
@@ -223,7 +223,8 @@
     <modules>
         <module>common-system-boot</module>
         <module>common-system-framework</module>
-        <module>common-system-system</module>
+        <module>common-system-controller</module>
+        <module>common-system-core</module>
         <module>common-system-quartz</module>
         <module>common-system-generator</module>
         <module>common-system-common</module>

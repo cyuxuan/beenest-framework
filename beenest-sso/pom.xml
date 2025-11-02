@@ -7,9 +7,20 @@
     <groupId>club.beenest</groupId>
     <artifactId>beenest-sso</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <name>beenest-sso</name>
     <description>beenest-sso系统</description>
+
+    <modules>
+        <module>sso-boot</module>
+        <module>sso-framework</module>
+        <module>sso-core</module>
+        <module>sso-quartz</module>
+        <module>sso-generator</module>
+        <module>sso-common</module>
+        <module>sso-controller</module>
+    </modules>
 
     <properties>
         <beenest-sso.version>0.0.1-SNAPSHOT</beenest-sso.version>
@@ -206,7 +217,7 @@
             <!-- 系统模块-->
             <dependency>
                 <groupId>club.beenest</groupId>
-                <artifactId>sso-system</artifactId>
+                <artifactId>sso-core</artifactId>
                 <version>${beenest-sso.version}</version>
             </dependency>
 
@@ -219,16 +230,6 @@
 
         </dependencies>
     </dependencyManagement>
-
-    <modules>
-        <module>sso-boot</module>
-        <module>sso-framework</module>
-        <module>sso-system</module>
-        <module>sso-quartz</module>
-        <module>sso-generator</module>
-        <module>sso-common</module>
-    </modules>
-    <packaging>pom</packaging>
 
     <build>
         <plugins>
