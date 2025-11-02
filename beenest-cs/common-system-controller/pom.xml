@@ -2,22 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>club.beenest</groupId>
-        <artifactId>beenest-sso</artifactId>
+        <artifactId>beenest-cs</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sso-controller</artifactId>
+    <artifactId>common-system-controller</artifactId>
 
-    <properties>
-        <maven.compiler.source>25</maven.compiler.source>
-        <maven.compiler.target>25</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <description>
+        system系统模块
+    </description>
 
     <dependencies>
+
 
         <!-- spring-boot-devtools -->
         <dependency>
@@ -45,22 +44,25 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+
         <!-- 核心模块-->
         <dependency>
             <groupId>club.beenest</groupId>
-            <artifactId>sso-framework</artifactId>
+            <artifactId>common-system-framework</artifactId>
         </dependency>
 
         <!-- 定时任务-->
         <dependency>
             <groupId>club.beenest</groupId>
-            <artifactId>sso-quartz</artifactId>
+            <artifactId>common-system-quartz</artifactId>
         </dependency>
 
         <!-- 代码生成-->
         <dependency>
             <groupId>club.beenest</groupId>
-            <artifactId>sso-generator</artifactId>
+            <artifactId>common-system-quartz</artifactId>
         </dependency>
+
     </dependencies>
+
 </project>
