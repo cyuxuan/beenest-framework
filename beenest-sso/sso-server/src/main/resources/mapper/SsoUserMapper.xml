@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="club.beenest.sso.mapper.SsoUserMapper">
+
+    <!-- 结果映射 -->
+    <resultMap id="BaseResultMap" type="club.beenest.sso.model.entity.SsoUser">
+        <id column="id" property="id" />
+        <result column="account" property="account" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="email" property="email" />
+        <result column="phone" property="phone" />
+        <result column="avatar" property="avatar" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+    <!-- 基础列列表 -->
+    <sql id="Base_Column_List">
+        id, account, username, password, email, phone, avatar, status, create_time, update_time
+    </sql>
+
+    <!-- 根据账号查询用户 -->
+    <select id="selectByAccount" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM sso_user
+        WHERE account = #{account}
+        LIMIT 1
+    </select>
+
+</mapper>

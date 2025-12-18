@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Beenest SSO</title>
+    <!-- LayUI CDN -->
+    <link href="//unpkg.com/layui@2.9.13/dist/css/layui.css" rel="stylesheet">
+</head>
+<body>
+<div class="layui-container" style="margin-top: 50px;">
+    <div class="layui-row">
+        <div class="layui-col-md12">
+            <div class="layui-card">
+                <div class="layui-card-header">Welcome to Beenest SSO</div>
+                <div class="layui-card-body">
+                    <p>SSO Server is running.</p>
+                    <button class="layui-btn layui-btn-primary">LayUI Button</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//unpkg.com/layui@2.9.13/dist/layui.js"></script>
+<script>
+    layui.use(['layer', 'form'], function(){
+        var layer = layui.layer
+        ,form = layui.form;
+        
+        layer.msg('Hello World');
+    });
+</script>
+</body>
+</html>

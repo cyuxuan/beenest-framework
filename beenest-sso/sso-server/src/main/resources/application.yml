@@ -1,0 +1,44 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: beenest-sso-server
+  thymeleaf:
+    cache: false
+    mode: HTML
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/beenest_sso
+    username: postgres
+    password: password
+
+# MyBatis Plus
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+# Sa-Token 配置
+sa-token:
+  token-name: satoken
+  timeout: 2592000
+  activity-timeout: -1
+  is-concurrent: true
+  is-share: true
+  token-style: uuid
+  is-log: true
+  cookie:
+    # Cookie 共享域名 (修改为你的根域名, 例如 .beenest.club)
+    # domain: .beenest.club
+
+# SSO 自定义配置
+sso:
+  jwt:
+    secret: beenest_sso_secret_key_beenest_sso_secret_key_must_be_long_enough
+    expiration: 86400000
+  aes:
+    key: beenest_aes_key_16chars!! # 必须是 16 字节，用于 AES-128
