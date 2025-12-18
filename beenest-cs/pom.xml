@@ -221,13 +221,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>common-system-boot</module>
-        <module>common-system-framework</module>
-        <module>common-system-controller</module>
-        <module>common-system-core</module>
-        <module>common-system-quartz</module>
-        <module>common-system-generator</module>
-        <module>common-system-common</module>
     </modules>
     <packaging>pom</packaging>
 

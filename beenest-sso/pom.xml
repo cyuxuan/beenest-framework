@@ -13,13 +13,6 @@
     <description>beenest-sso系统</description>
 
     <modules>
-        <module>sso-boot</module>
-        <module>sso-framework</module>
-        <module>sso-core</module>
-        <module>sso-quartz</module>
-        <module>sso-generator</module>
-        <module>sso-common</module>
-        <module>sso-controller</module>
     </modules>
 
     <properties>
