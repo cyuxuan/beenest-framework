@@ -18,6 +18,7 @@
     </modules>
 
     <properties>
+        <java.version>1.8</java.version>
         <beenest-sso.version>0.0.1-SNAPSHOT</beenest-sso.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -28,6 +29,8 @@
         <kaptcha.version>2.3.3</kaptcha.version>
         <fastjson.version>2.0.58</fastjson.version>
         <jwt.version>0.9.1</jwt.version>
+        <spring-cloud.version>2020.0.6</spring-cloud.version>
+        <spring-cloud-alibaba.version>2021.1</spring-cloud-alibaba.version>
 
 <!--        <spring-security.version>5.7.14</spring-security.version>-->
 <!--        <spring-framework.version>5.3.39</spring-framework.version>-->
@@ -36,6 +39,24 @@
     <!-- 依赖声明 -->
     <dependencyManagement>
         <dependencies>
+
+            <!-- Spring Cloud -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Spring Cloud Alibaba -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
 <!--            &lt;!&ndash; 覆盖SpringFramework的依赖配置&ndash;&gt;-->
 <!--            <dependency>-->

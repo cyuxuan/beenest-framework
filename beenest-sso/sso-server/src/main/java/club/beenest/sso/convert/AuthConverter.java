@@ -1,5 +1,7 @@
 package club.beenest.sso.convert;
 
+import club.beenest.sso.common.enums.UserStatusEnum;
+import club.beenest.sso.model.dto.RegisterDTO;
 import club.beenest.sso.model.entity.SsoUser;
 
 import java.util.HashMap;
@@ -23,10 +25,30 @@ public class AuthConverter {
         
         Map<String, Object> map = new HashMap<>();
         map.put("userId", ssoUser.getId());
-        map.put("role", "user"); // 默认角色
+        // 默认角色
+        map.put("role", "user");
         map.put("account", ssoUser.getAccount());
         map.put("username", ssoUser.getUsername());
         
         return map;
+    }
+
+    /**
+     * RegisterDTO 转 SsoUser
+     *
+     * @param registerDTO 注册信息
+     * @return 用户实体
+     */
+    public static SsoUser registerDTOToSsoUser(RegisterDTO registerDTO) {
+        if (registerDTO == null) {
+            return null;
+        }
+        SsoUser user = new SsoUser();
+        user.setAccount(registerDTO.getAccount());
+        user.setUsername(registerDTO.getUsername());
+        user.setAvatar(registerDTO.getAvatar());
+        // 默认启用
+        user.setStatus(UserStatusEnum.ENABLE);
+        return user;
     }
 }

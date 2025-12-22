@@ -1,5 +1,6 @@
 package club.beenest.sso.model.entity;
 
+import club.beenest.sso.common.enums.UserStatusEnum;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -54,9 +55,9 @@ public class SsoUser implements Serializable {
     private String avatar;
 
     /**
-     * 状态 (1: 启用, 0: 禁用)
+     * 状态
      */
-    private Integer status;
+    private UserStatusEnum status;
 
     /**
      * 创建时间

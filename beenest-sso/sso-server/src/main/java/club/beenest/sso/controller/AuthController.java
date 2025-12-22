@@ -3,6 +3,7 @@ package club.beenest.sso.controller;
 import club.beenest.sso.common.response.Response;
 import club.beenest.sso.model.dto.LoginDTO;
 import club.beenest.sso.model.dto.LoginResultDTO;
+import club.beenest.sso.model.dto.RegisterDTO;
 import club.beenest.sso.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -31,5 +32,17 @@ public class AuthController {
     public Response<LoginResultDTO> login(@RequestBody LoginDTO loginDTO) {
         LoginResultDTO result = authService.login(loginDTO);
         return Response.success("登录成功", result);
+    }
+
+    /**
+     * 注册接口
+     *
+     * @param registerDTO 注册参数
+     * @return 注册结果
+     */
+    @PostMapping("/register")
+    public Response<Void> register(@RequestBody RegisterDTO registerDTO) {
+        authService.register(registerDTO);
+        return Response.success("注册成功", null);
     }
 }
