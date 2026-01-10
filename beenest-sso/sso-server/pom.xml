@@ -44,6 +44,13 @@
             <version>${project.version}</version>
         </dependency>
 
+        <!-- API -->
+        <dependency>
+            <groupId>club.beenest</groupId>
+            <artifactId>sso-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
         <!-- JJWT -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -82,6 +89,20 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
+
+        <!-- Nacos Discovery -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <!-- Dubbo -->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-dubbo</artifactId>
+        </dependency>
+
+
 
         <!-- Spring Cloud Bootstrap -->
         <dependency>

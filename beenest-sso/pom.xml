@@ -13,6 +13,7 @@
     <description>beenest-sso系统</description>
 
     <modules>
+        <module>sso-api</module>
         <module>sso-sdk</module>
         <module>sso-server</module>
     </modules>

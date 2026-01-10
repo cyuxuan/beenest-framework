@@ -22,4 +22,12 @@ public interface AuthService {
      * @param registerDTO 注册请求信息
      */
     void register(RegisterDTO registerDTO);
+
+    /**
+     * 验证 Token 是否有效
+     *
+     * @param token 令牌
+     * @return 是否有效
+     */
+    boolean verify(String token);
 }

@@ -121,4 +121,17 @@ public class AuthServiceImpl implements AuthService {
         // 5. 保存
         ssoUserMapper.insert(user);
     }
+
+    /**
+     * 验证 Token 是否有效
+     *
+     * @param token 令牌
+     * @return 是否有效
+     */
+    @Override
+    public boolean verify(String token) {
+        // 检查 Sa-Token 中是否存在该 Token 的登录状态
+        Object loginId = StpUtil.getLoginIdByToken(token);
+        return loginId != null;
+    }
 }
